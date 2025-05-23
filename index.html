@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Graph Plotter</title>
+  <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
+</head>
+<body>
+  <h1>Enter a 2D Equation</h1>
+  <form id="graphForm">
+    <input type="text" id="equation" placeholder="e.g., x*x" required>
+    <button type="submit">Plot</button>
+  </form>
+
+  <div id="plot" style="width:700px;height:400px;margin-top:20px;"></div>
+  <script src="plot.js"></script>
+</body>
+</html>
